@@ -131,10 +131,14 @@ height: 350px;
     border-radius: 10%;
 }
 
-main{
+main {
+    height: 100vh; /* Make main take the full viewport height */
+    align-items: center; /* Center content vertically */
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: auto; /* Center the main div */
+    max-width: 800px; /* Set a maximum width */
 }
 
 .loggedIn{
