@@ -1,0 +1,194 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #00039e;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px; 
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff; 
+    text-align: center;
+  }
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+    margin: 30px; 
+    display: block;
+}
+
+nav a:hover {
+    background-color: #00095e;
+}
+
+/* Carousel styling */
+.carousel {
+    max-width: 800px;
+    height: 350px;
+    margin-top: 100px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+  
+.carousel-flex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.carousel img {
+width: 100%;
+height: 350px;
+}
+
+.buttons{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20%;
+    border-width: 1px;
+}
+
+.heading{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.login-heading{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content-container {
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.login-content {
+    margin-top: 15px;
+    margin-bottom: 100px;
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
+.register-content{
+    margin-top: 15px;
+    margin-bottom: 100px;
+    min-height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
+.content {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    min-height: 400px;
+    min-width: 600px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loggedIn{
+    display: flex;
+    flex-direction: column;
+}
+
+#bulletinBoard{
+
+    align-content: center;
+}
+
+#welcomeMessage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#authButtons{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+#submit{
+    width: 200px;
+    background-color: #00039e;
+    color: #ffffff;
+    border-radius: 40px;
+    line-height: 40px;
+}
+
+#submit:hover, .home-buttons:hover{
+    background-color: #2b2ee7;
+}
+
+.home-buttons{
+    background-color: #00039e;
+    width: 150px;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 40px;
+}
+
+
+footer {
+    background-color: #00039e;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

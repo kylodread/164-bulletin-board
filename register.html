@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html" class="home-link">Home</a></li>
+            <li><a href="register.html" id="register-link"><b>Register</b></a></li>
+            <li><a href="login.html" id="login-link">Login</a></li>
+            <li><a href="home.html" id="logout-link" style="display:none;">Logout</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="carousel-flex">
+        <div class="carousel-prev"> <button class="buttons" onclick="showPrevImage()"><</button></div>
+        <div class="carousel">
+            <img src="images/image1.jpg" class="carousel-image" alt="Image 1">
+            <img src="images/image2.jpg" alt="Image 2" class="carousel-image" style="display: none;" />
+            <img src="images/image3.jpg" alt="Image 3" class="carousel-image" style="display: none;" />  
+        </div>
+        <div class="carousel-next"><button class="buttons" onclick="showNextImage()">></button></div>
+    </div>
+
+    <main>
+        <h1 class="login-heading" id="register-heading">Register</h1>
+        <h1 class="login-heading" id="already-logged-in"> You are already logged in.</h1>
+            <div class="content-container">
+                <div class="register-content">
+                    <form id="register-form">
+                        <label for="fullName"><b>Full Name</b></label><br>
+                        <input type="text" id="fullName" required><br><br>
+                        <label for="email"><b>Email</b></label><br>
+                        <input type="email" id="email" required><br><br>
+                        <label for="password"><b>Password</b></label><br>
+                        <input type="password" id="password" required><br><br>
+                        <label for="confirmPassword"><b>Confirm Password</b></label><br>
+                        <input type="password" id="confirmPassword" required><br><br><br><br>
+                        <button id="submit"><b>Register</b></button>
+                    </form>
+            </div>
+        </div>                          
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Rohan Venter</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+
+</body>
+</html>
